@@ -55,5 +55,5 @@ This kind of pattern is a great candidate for the full tutorial: it gives you an
 
 ## Author
 
-Created by Karltun Moreno  
-Portfolio: https://karltunmoreno.github.io/My-Portfolio/
+Created by Max Karltun 
+
