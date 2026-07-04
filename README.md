@@ -1,52 +1,59 @@
-# Regex Tutorial Starter Code
-
-
 # Bug Free Goggles
 
-Introductory paragraph (replace this with your text)
+![GitHub repo size](https://img.shields.io/github/repo-size/MaxKarltun/bug-free-goggles)
+![GitHub last commit](https://img.shields.io/github/last-commit/MaxKarltun/bug-free-goggles)
+![GitHub top language](https://img.shields.io/github/languages/top/MaxKarltun/bug-free-goggles)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success)
 
-## Summary
+A fast, approachable regex tutorial project that breaks down the building blocks of regular expressions into plain English. This repo is designed as a study guide and starter reference for understanding how regex patterns work, piece by piece.
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+## Why this project is useful
 
-## Table of Contents
+Regular expressions can feel intimidating at first glance. **Bug Free Goggles** helps remove that mystery by turning complex syntax into readable explanations, examples, and a structure that makes learning easier. Whether you're brushing up for class, preparing for technical interviews, or building confidence with pattern matching, this project gives you a clear place to start.
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+## What's inside
 
-## Regex Components
+- A regex tutorial README structure
+- Sections covering core regex concepts like anchors, quantifiers, character classes, grouping, boundaries, and lookarounds
+- A starter markdown file in `Develop/gist-template.md` for drafting or refining the tutorial content
+- A simple project layout that can be expanded into a polished study resource
 
-### Anchors
+## Project structure
 
-### Quantifiers
+```text
+.
+├── README.md                 # Main project overview and regex tutorial entry point
+└── Develop/
+    └── gist-template.md      # Starter template for the regex tutorial content
+```
 
-### OR Operator
+## Getting started
 
-### Character Classes
+1. Clone the repository.
+2. Open `README.md` to view the project overview.
+3. Edit `Develop/gist-template.md` to build out the regex tutorial.
+4. Customize the examples and explanations with your own learning notes.
 
-### Flags
+## Suggested direction for this repo
 
-### Grouping and Capturing
+Here are some strong next steps to make this repository more exciting and useful:
 
-### Bracket Expressions
+- Turn the tutorial into a complete walkthrough for one specific regex pattern
+- Add real-world examples such as email validation, password rules, or URL matching
+- Include before-and-after examples showing what each regex component does
+- Add a GitHub Pages version of the tutorial for a more polished presentation
+- Include a cheat sheet section with quick regex references
+- Add practice examples for beginners to test their understanding
 
-### Greedy and Lazy Match
+## Example regex snippet
 
-### Boundaries
+```regex
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
-### Back-references
-
-### Look-ahead and Look-behind
+This kind of pattern is a great candidate for the full tutorial: it gives you anchors, character classes, quantifiers, grouping, and escaping all in one example.
 
 ## Author
 
-Karltun Moreno at https://karltunmoreno.github.io/My-Portfolio/
+Created by Karltun Moreno  
+Portfolio: https://karltunmoreno.github.io/My-Portfolio/
